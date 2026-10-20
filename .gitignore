@@ -1,0 +1,24 @@
+# Secret and environment files (DO NOT COMMIT API KEYS)
+1.txt
+.env
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Vector database local storage
+chroma_db/
+*.db
+*.sqlite3
